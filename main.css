@@ -1,0 +1,29 @@
+body{
+    padding: 100px;
+    background-color: aliceblue;
+}
+
+#all{
+    line-height: 0px;
+}
+
+.shulk{
+    padding-bottom: 40px;
+    width: 1152px;
+}
+
+.map{
+    float: top;
+}
+
+img{
+    padding: 0px
+}
+
+button{
+    background-color: lightgray
+}
+
+button.selected{
+    background-color: lightcyan
+}
