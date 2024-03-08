@@ -1,5 +1,13 @@
+function compareSize(a, b) {
+    return b.size - a.size;
+}
+
+function compareStartIndex(a, b) {
+    return a.startIndex - b.startIndex;
+}
+
 const mapList = [
-    new FullMap("gay balls", 4, 6, 1),
+    new FullMap("", 4, 6, 1),
     new FullMap("", 13, 3, 2),
     new FullMap("", 22, 3, 2),
     new FullMap("", 28, 3, 3),
@@ -133,15 +141,17 @@ const mapList = [
     new FullMap("", 1030, 2, 1),
     new FullMap("", 1032, 2, 3),
     new FullMap("", 1039, 2, 2),
+    new FullMap("", 1045, 1, 2),
     new FullMap("", 1054, 2, 3),
     new FullMap("", 1066, 2, 2),
     new FullMap("", 1070, 1, 2),
     new FullMap("", 1089, 2, 2),
     new FullMap("", 1099, 1, 2),
+    new FullMap("", 1101, 1, 2),
     new FullMap("", 1105, 2, 1),
     new FullMap("", 1108, 3, 3),
     new FullMap("", 1140, 2, 2),
-    new FullMap("", 1148, 2, 1),
+    new FullMap("", 1148, 1, 2),
     new FullMap("", 1151, 1, 2),
     new FullMap("", 1153, 3, 2),
     new FullMap("", 1162, 2, 2),
@@ -156,7 +166,7 @@ const mapList = [
     new FullMap("", 1243, 5, 5),
     new FullMap("", 1270, 2, 3),
     new FullMap("", 1276, 2, 2),
-    new FullMap("", 1280, 4, 2),
+    new FullMap("", 1280, 2, 4),
     new FullMap("", 1288, 2, 2),
     new FullMap("", 1292, 2, 2),
     new FullMap("", 1297, 2, 1),
@@ -228,8 +238,6 @@ const mapList = [
     new FullMap("", 1729, 10, 10),
     new FullMap("", 1829, 2, 3),
     new FullMap("", 1835, 1, 2),
-    new FullMap("", 1837, 13, 2),
-    new FullMap("", 1864, 13, 2),
     new FullMap("", 1891, 11, 16),
     new FullMap("", 2068, 1, 2),
     new FullMap("", 2072, 3, 2),
@@ -250,7 +258,6 @@ const mapList = [
     new FullMap("", 2485, 5, 4),
     new FullMap("", 2508, 2, 2),
     new FullMap("", 2512, 21, 12),
-    new FullMap("", 2764, 4, 4),
     new FullMap("", 2782, 4, 5),
     new FullMap("", 2805, 2, 2),
     new FullMap("", 2809, 4, 6),
@@ -259,20 +266,21 @@ const mapList = [
     new FullMap("", 2903, 2, 2),
     new FullMap("", 2917, 10, 10),
     new FullMap("", 3021, 2, 2),
-    new FullMap("", 3025, 5, 4),
     new FullMap("", 3052, 8, 4),
     new FullMap("", 3085, 2, 2),
     new FullMap("", 3091, 3, 1),
     new FullMap("", 3099, 2, 2),
     new FullMap("", 3106, 5, 5),
     new FullMap("", 3133, 20, 20),
-    new FullMap("", 3538, 13, 2)
+    new FullMap("", 3572, 2, 4),
+    new FullMap("", 3580, 4, 2),
+    new FullMap("", 3588, 2, 2),
+    new FullMap("", 3592, 3, 2),
+    new FullMap("", 3599, 2, 2),
+    new FullMap("", 3607, 2, 2),
+    new FullMap("", 3613, 2, 2),
+    new FullMap("", 3617, 1, 2),
+    new FullMap("", 3623, 2, 2),
+    new FullMap("", 3630, 4, 4),
+    new FullMap("", 3646, 2, 1)
 ];
-
-function compareSize(a, b) {
-    return b.size - a.size;
-}
-
-function compareStartIndex(a, b) {
-    return a.startIndex - b.startIndex;
-}

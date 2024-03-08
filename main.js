@@ -1,4 +1,4 @@
-const smiCount = 3571;
+const smiCount = 3652;
 
 const allmaps = document.getElementById('all');
 const byMapButton = document.getElementById('byMap');
@@ -38,7 +38,6 @@ function displayByMap(){
                     }
                 }
                 smi = maxsmi;
-                nextMap++;
             }else{
                 const mapDiv = document.createElement('div');
                 mapDiv.setAttribute("style","width:" + mapList[nextMap].width * 128 + "px");
@@ -48,9 +47,9 @@ function displayByMap(){
                     addMap(mapDiv, smi);
                     smi++;
                 }
-                nextMap++;
                 smi--;
             }
+            nextMap++;
             if(nextMap == mapList.length){
                 nextMap = 0;
             }
