@@ -273,7 +273,7 @@ const mapList = [
     new FullMap("", 3099, 2, 2),
     new FullMap("", 3106, 5, 5),
     new FullMap("", 3133, 20, 20),
-    new FullMap("", 3533, 1, 2, [[0, 0], [0, 2]]),
+    new FullMap("", 3533, 2, 1, [[0, 0], [0, 2]]),
     new FullMap("", 3572, 2, 4),
     new FullMap("", 3580, 4, 2),
     new FullMap("", 3588, 2, 2),
